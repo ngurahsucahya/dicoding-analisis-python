@@ -43,7 +43,7 @@ day_filtered['Usage Category'] = day_filtered['count'].apply(categorize_usage)
 
 # navigasi
 st.sidebar.title("Navigation")
-option = st.sidebar.selectbox("Pilih data yang ingin ditampilkan:", 
+option = st.sidebar.selectbox("Pilih data yang ingin ditampilkan (khusus untuk perbandingan tahun mohon filter data dari 2011 sampai 2012:", 
                               ["Rentals by Hour","Bike Rentals by Month", "Bike Rentals by Season", 
                                "Bike Rentals Trend (2011 vs 2012)", 
                                "Bike Rentals by Weather", "Usage Category Distribution",
